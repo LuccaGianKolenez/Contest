@@ -3,6 +3,8 @@ import './style.css';
 
 //Importar api para fazer uma chamada, get, post, put, delete ...
 import api from '../services/index.js'
+import mapGeral from '../dc/python/map.png'
+
 
 function MenuBar() {
 
@@ -36,6 +38,8 @@ function MenuBar() {
       </ul>
     </div>
     <button onClick={chamadaBack}>Teste chamada</button>
+
+    <img src={mapGeral} alt=""/>
     </>
   );
 }
